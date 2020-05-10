@@ -1,0 +1,42 @@
+{
+  "name": "node-red-contrib-component-dashboard-legacy-widgets",
+  "version": "0.0.1",
+  "description": "Legacy widgets for node-red-contrib-component-dashboard based on polymer 3",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "@polymer/app-layout": "^3.0.0",
+    "@polymer/app-route": "^3.0.0",
+    "@polymer/iron-flex-layout": "^3.0.0",
+    "@polymer/iron-icons": "^3.0.0",
+    "@polymer/iron-list": "^3.0.0",
+    "@polymer/iron-pages": "^3.0.0",
+    "@polymer/paper-button": "^3.0.0",
+    "@polymer/paper-icon-button": "^3.0.0",
+    "@polymer/paper-item": "^3.0.0",
+    "@polymer/paper-listbox": "^3.0.0",
+    "@polymer/paper-menu-button": "^3.0.0",
+    "@polymer/paper-styles": "^3.0.0",
+    "@polymer/paper-toggle-button": "^3.0.0"
+  },
+  "node-red": {
+    "nodes": {
+      "yad-paper-button": "yad-paper-button/yad-paper-button-node.js",
+      "yad-toggle-icon-button": "yad-toggle-icon-button/yad-toggle-icon-button-node.js",
+      "yad-text-widget": "yad-text-widget/yad-text-widget-node.js",
+      "yad-switch": "yad-switch/yad-switch-node.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinhcet/node-red-contrib-component-dashboard-legacy-widgets.git"
+  },
+  "author": "cinhcet",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cinhcet/node-red-contrib-component-dashboard-legacy-widgets/issues"
+  },
+  "homepage": "https://github.com/cinhcet/node-red-contrib-component-dashboard-legacy-widgets#readme"
+}
